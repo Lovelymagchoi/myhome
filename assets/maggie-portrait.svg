@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 920" role="img" aria-labelledby="title desc">
+  <title id="title">Professional portrait of Maggie Choi</title>
+  <desc id="desc">Editorial-style professional portrait treatment for the Maggie Choi portfolio hero.</desc>
+  <defs>
+    <linearGradient id="studio" x1="18%" y1="6%" x2="82%" y2="95%">
+      <stop offset="0" stop-color="#243f64"/>
+      <stop offset="0.36" stop-color="#172f52"/>
+      <stop offset="1" stop-color="#0f223c"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="35%" y1="10%" x2="70%" y2="100%">
+      <stop offset="0" stop-color="#f8d8bd"/>
+      <stop offset="0.55" stop-color="#d99d7d"/>
+      <stop offset="1" stop-color="#a86450"/>
+    </linearGradient>
+    <linearGradient id="jacket" x1="24%" y1="18%" x2="78%" y2="94%">
+      <stop offset="0" stop-color="#1e3e68"/>
+      <stop offset="0.62" stop-color="#132d50"/>
+      <stop offset="1" stop-color="#09192d"/>
+    </linearGradient>
+    <linearGradient id="blouse" x1="32%" y1="0" x2="70%" y2="100%">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#ead9ba"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0" stop-color="#fff6e5" stop-opacity="0.72"/>
+      <stop offset="0.52" stop-color="#e7a936" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#142f54" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#07182e" flood-opacity="0.32"/>
+    </filter>
+    <clipPath id="portraitCutout">
+      <path d="M124 889c9-141 56-235 142-282 28-15 48-43 52-75l5-39h76l6 39c5 32 26 59 54 74 92 49 139 143 148 283H124Z"/>
+      <path d="M186 313c0-125 71-217 177-217s177 92 177 217c0 141-72 246-177 246S186 454 186 313Z"/>
+    </clipPath>
+  </defs>
+  <rect width="720" height="920" rx="52" fill="url(#studio)"/>
+  <circle cx="516" cy="166" r="156" fill="url(#glow)"/>
+  <path d="M79 828c80-179 217-268 411-268 72 0 130 11 174 34v326H79Z" fill="#36796f" opacity="0.18"/>
+  <g filter="url(#softShadow)">
+    <g clip-path="url(#portraitCutout)">
+      <rect x="86" y="60" width="560" height="860" fill="#f7f2e8"/>
+      <path d="M155 890c10-128 55-216 136-266 36 41 78 62 126 62 49 0 90-21 124-62 83 52 128 141 138 266H155Z" fill="url(#jacket)"/>
+      <path d="M323 586h78l41 230-81 61-79-61 41-230Z" fill="url(#blouse)"/>
+      <path d="M316 512h90l11 90c-20 34-39 51-58 51-19 0-38-17-57-51l14-90Z" fill="url(#skin)"/>
+      <path d="M190 315c0-136 73-235 174-235 104 0 177 99 177 235 0 47-9 95-25 136-31 77-86 126-153 126-66 0-121-49-151-126-15-41-22-89-22-136Z" fill="url(#skin)"/>
+      <path d="M183 314c-12-77 2-138 42-181 37-41 84-61 140-61 70 0 122 27 157 81 29 43 39 96 30 160-37-11-72-38-104-80-77 42-166 69-265 81Z" fill="#2b2425"/>
+      <path d="M187 318c13 114 42 190 87 229-60-9-102-54-127-135-27-86-15-168 35-245 12 47 14 97 5 151Z" fill="#2b2425"/>
+      <path d="M538 318c-9 105-37 181-85 228 60-10 101-56 125-138 25-84 12-164-39-241-9 46-9 96-1 151Z" fill="#2b2425"/>
+      <path d="M275 348c29-17 57-17 84 0" fill="none" stroke="#3d2f2c" stroke-width="10" stroke-linecap="round" opacity="0.72"/>
+      <path d="M401 348c27-17 55-17 84 0" fill="none" stroke="#3d2f2c" stroke-width="10" stroke-linecap="round" opacity="0.72"/>
+      <path d="M354 438c11 9 25 9 38 0" fill="none" stroke="#8c584a" stroke-width="8" stroke-linecap="round" opacity="0.72"/>
+      <path d="M316 487c33 24 69 24 106 0" fill="none" stroke="#9d4f47" stroke-width="9" stroke-linecap="round"/>
+      <path d="M264 255c74 15 146 3 216-36" fill="none" stroke="#55413a" stroke-width="26" stroke-linecap="round" opacity="0.28"/>
+      <path d="M236 624c49 41 90 61 125 61s77-20 126-61" fill="none" stroke="#e7a936" stroke-width="7" opacity="0.8"/>
+      <path d="M0 0h720v920H0z" fill="#142f54" opacity="0.08"/>
+    </g>
+  </g>
+  <path d="M124 889c9-141 56-235 142-282 28-15 48-43 52-75l5-39h76l6 39c5 32 26 59 54 74 92 49 139 143 148 283" fill="none" stroke="#fffdf8" stroke-width="10" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M186 313c0-125 71-217 177-217s177 92 177 217c0 141-72 246-177 246S186 454 186 313Z" fill="none" stroke="#fffdf8" stroke-width="10" opacity="0.9"/>
+</svg>
